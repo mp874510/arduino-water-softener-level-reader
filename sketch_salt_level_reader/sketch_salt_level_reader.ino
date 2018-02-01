@@ -2,6 +2,7 @@
   const int echoPin = 10;
   long duration;
   int distanceCm, distanceInch;
+  const long tankLengthInch = 31;
   
   void setup() {
   // put your setup code here, to run once:
